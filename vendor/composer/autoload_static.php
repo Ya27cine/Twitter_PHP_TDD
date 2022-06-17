@@ -20,9 +20,12 @@ class ComposerStaticInite15a5d6d6a517f8ffd25128001b7b37f
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Twitter\\' => 8,
+        ),
         'P' => 
         array (
-            'Prostam\\TddPhp\\' => 15,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
         ),
@@ -37,14 +40,14 @@ class ComposerStaticInite15a5d6d6a517f8ffd25128001b7b37f
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Prostam\\TddPhp\\' => 
+        'Twitter\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

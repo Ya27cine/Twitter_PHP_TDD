@@ -2,7 +2,7 @@
     "name": "prostam/tdd_php",
     "autoload": {
         "psr-4": {
-            "Prostam\\TddPhp\\": "src/"
+            "Twitter\\": "src/"
         }
     },
     "authors": [
