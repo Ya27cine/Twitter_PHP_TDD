@@ -17,12 +17,17 @@ class IndexTest extends TestCase{
         // Given :
         $_GET['name'] = "Yassine";
 
-        // When
-        $response = new \Twitter\Controller\HelloController();
-        $reslt    = $response->sayHello()->getContent();
+        // When :
+        $controller = new \Twitter\Controller\HelloController();
+        $response    = $controller->sayHello();
 
         // Then :
-        $this->assertEquals("Hello Yassine",$reslt);
+        $this->assertEquals("Hello Yassine", $response->getContent());
+        $this->assertEquals(200, $response->getStatus());
+
+        $header = $response->getHeaders()['Content-Type'];
+        $this->assertEquals( "text/html", $header);
+
     }
 }
 ?>
