@@ -7,7 +7,10 @@ class Response{
     private array $headers;
     private int $status;
 
-    public function __construct(string $content ,array  $headers = [], int $status = 200)
+    public function __construct(
+			string $content,  
+			array  $headers = ["Content-Type" => "text/html"], 
+			int    $status  = 200)
     {
         $this->content = $content;
         $this->status  = $status;

@@ -1,1 +1,1 @@
-{"version":1,"defects":{"IndexTest::test_index_shows_good_hello":4},"times":{"IndexTest::test_index_shows_good_hello":0.002}}
+{"version":1,"defects":{"IndexTest::test_index_shows_good_hello":4,"Warning":6,"IndexTest::test_index_say_hello":4},"times":{"IndexTest::test_index_shows_good_hello":0.003,"Warning":0.002,"IndexTest::test_index_say_hello":0.002,"IndexTest::testindex_say_hello":0.002}}
